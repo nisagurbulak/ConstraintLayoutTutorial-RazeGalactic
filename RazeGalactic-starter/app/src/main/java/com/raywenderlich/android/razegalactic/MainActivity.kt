@@ -58,6 +58,7 @@ class MainActivity : AppCompatActivity() {
 
     switch1.setOnCheckedChangeListener { _, isChecked ->
       switch1.setText(if (isChecked) R.string.round_trip else R.string.one_way)
+      println("hello world!")
     }
 
     departButton.setOnClickListener { //3
